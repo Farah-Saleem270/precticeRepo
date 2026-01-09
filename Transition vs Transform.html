@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition vs Transform in Tailwind css</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <button class="bg-blue-800 text-white p-3 m-10 rounded hover:bg-blue-950">Button 1</button>
+
+    <button class="bg-blue-800 text-white p-3 m-10 rounded hover:bg-blue-950
+    transition duration-1000">Button 2</button>
+
+    <button class="bg-blue-800 text-white p-3 m-10 rounded hover:opacity-5
+    transition duration-1000">Button 3</button>
+
+    <button class="bg-red-800 text-white p-3 m-10 rounded hover:rotate-180
+    transition-transform duration-1000">Button 4</button>
+
+    <button class="bg-red-800 text-white p-3 m-10 rounded hover:scale-75
+    transition-transform duration-1000">Button 5</button>
+
+    <button class="bg-red-800 text-white p-3 m-10 rounded hover:scale-x-150
+    transition-transform duration-1000">Button 6</button>
+
+    <button class="bg-red-800 text-white p-3 m-10 rounded hover:scale-y-150
+    transition-transform duration-1000">Button 7</button>
+
+    <img src="cat.jpg" class="m-42 w-56 hover:rotate-45 hover:scale-125 transition-transform duration-1000">
+
+</body>
+</html>
