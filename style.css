@@ -2,3 +2,7 @@
 /* @utility container{
     margin: auto;
 } */
+
+@theme{
+--breakpoint-sm:700px
+}
