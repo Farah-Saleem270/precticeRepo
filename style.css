@@ -16,3 +16,5 @@
 --width-1:100px;
 --size-100:100px
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
