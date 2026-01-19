@@ -3,7 +3,7 @@
     margin: auto;
 } */
 
-@theme{
+/* @theme{
 --breakpoint-sm:700px;
 --breakpoint-md:900px;
 --breakpoint-lg:1000px;
@@ -15,6 +15,26 @@
 --height-1:100px;
 --width-1:100px;
 --size-100:100px
+} */
+
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+
+@layer components {
+  .card {
+    @apply p-6 bg-white rounded-xl shadow-lg text-4xl;
+  }
+
+  .card:hover {
+  @apply bg-red-500;
 }
 
-@custom-variant dark (&:where(.dark, .dark *));
+}
+
+.btn {
+  @apply px-6 py-3 m-5 bg-black text-white font-semibold rounded-lg;
+}
+
+.btn:hover {
+  @apply bg-red-500;
+}
+
