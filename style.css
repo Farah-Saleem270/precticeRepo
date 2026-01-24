@@ -59,10 +59,45 @@
   }
 } */
 
-
+/* 
 @layer components{
   .btn{
        @apply bg-blue-500 rounded p-2 text-white hover:bg-blue-900
 
+  }
+} */
+
+
+@layer components {
+  .btn {
+    @apply border border-slate-400 rounded px-5 py-1.5 hover:bg-slate-100
+  }
+
+  .btn-primary {
+    @apply bg-blue-500 hover:bg-blue-600 text-white border-blue-500
+  }
+
+  .btn-secondary {
+    @apply bg-slate-500 hover:bg-slate-600 text-white border-slate-500
+  }
+
+  .btn-Success {
+    @apply bg-green-500 hover:bg-green-600 text-white border-green-500
+  }
+
+  .btn-Danger {
+    @apply bg-red-500 hover:bg-red-600 text-white border-red-500
+  }
+
+  .btn-Warning {
+    @apply bg-yellow-500 hover:bg-yellow-600 text-black border-yellow-500
+  }
+
+  .btn-Info {
+    @apply bg-cyan-500 hover:bg-cyan-600 text-black border-cyan-500
+  }
+
+  .btn-Dark {
+    @apply bg-black hover:bg-black text-white border-black
   }
 }
