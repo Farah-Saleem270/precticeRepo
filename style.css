@@ -101,3 +101,9 @@
     @apply bg-black hover:bg-black text-white border-black
   }
 }
+
+
+.custom-Cantainer{
+  /* @apply bg-green-400  */
+   margin: --spacing(4);
+}
