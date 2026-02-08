@@ -68,7 +68,7 @@
 } */
 
 
-@layer components {
+/* @layer components {
   .btn {
     @apply border border-slate-400 rounded px-5 py-1.5 hover:bg-slate-100
   }
@@ -100,10 +100,17 @@
   .btn-Dark {
     @apply bg-black hover:bg-black text-white border-black
   }
-}
+} */
 
 
-.custom-Cantainer{
+/* .custom-Cantainer{ */
   /* @apply bg-green-400  */
-   margin: --spacing(4);
+   /* margin: --spacing(4); */
+/* } */
+
+
+@layer components{
+  .img-gallery{
+    @apply hover:scale-110 transition duration-1000 hover:brightness-125 rounded
+  }
 }
